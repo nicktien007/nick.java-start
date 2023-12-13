@@ -75,6 +75,10 @@ public class Ch04 {
 				break;
 
 		}
+
+		DcardType[] dcardTyps = DcardType.values();
+
+		System.out.println(dcardTyps[1].name());
 	}
 
 	public enum Days{
@@ -85,5 +89,12 @@ public class Ch04 {
 		星期五,
 		星期六,
 		星期日
+	}
+
+	public enum DcardType{
+		感情,
+		女孩,
+		心情,
+
 	}
 }
