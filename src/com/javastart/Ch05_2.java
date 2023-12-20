@@ -10,17 +10,17 @@ public class Ch05_2 {
 	public static void main(String[] args) {
 		//1+2+3...+99=?
 
-//		int total = 0;
-//		int next = 1;
-//
-//		while (next < 100){
-//
-//			//total = total + next;
-//			total += next;
-//			next++;
-//		}
-//
-//		System.out.println(total);
+		int total = 0;
+		int next = 1;
+
+		while (next < 100){
+
+			//total = total + next;
+			total += next;
+			next++;
+		}
+
+		System.out.println(total);
 
 
 		//巢狀迴圈
